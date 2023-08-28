@@ -1,0 +1,24 @@
+﻿@model HomeViewModel
+
+@{
+    ViewData["Title"] = Model.Title;
+}
+
+<section>
+    @foreach(var news in Model.News)
+    {
+        <div>
+            <h2>@news.Name</h2>
+            <p>@news.Description</p>
+        </div>
+    }
+</section>
+<section class="mt-5">
+    @foreach (var project in Model.Projects)
+    {
+        <div>
+            <h2>@project.Name</h2>
+            <p>@project.Description</p>
+        </div>
+    }
+</section>
