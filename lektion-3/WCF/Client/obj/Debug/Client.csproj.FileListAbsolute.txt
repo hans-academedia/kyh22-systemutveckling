@@ -1,0 +1,15 @@
+C:\education\kyh\kyh22-systemutveckling\lektion-3\WCF\Client\bin\Debug\Client.exe.config
+C:\education\kyh\kyh22-systemutveckling\lektion-3\WCF\Client\bin\Debug\Client.exe
+C:\education\kyh\kyh22-systemutveckling\lektion-3\WCF\Client\bin\Debug\Client.pdb
+C:\education\kyh\kyh22-systemutveckling\lektion-3\WCF\Client\bin\Debug\Shared.dll
+C:\education\kyh\kyh22-systemutveckling\lektion-3\WCF\Client\bin\Debug\Dapper.dll
+C:\education\kyh\kyh22-systemutveckling\lektion-3\WCF\Client\bin\Debug\Newtonsoft.Json.dll
+C:\education\kyh\kyh22-systemutveckling\lektion-3\WCF\Client\bin\Debug\Shared.pdb
+C:\education\kyh\kyh22-systemutveckling\lektion-3\WCF\Client\bin\Debug\Shared.dll.config
+C:\education\kyh\kyh22-systemutveckling\lektion-3\WCF\Client\bin\Debug\Dapper.xml
+C:\education\kyh\kyh22-systemutveckling\lektion-3\WCF\Client\bin\Debug\Newtonsoft.Json.xml
+C:\education\kyh\kyh22-systemutveckling\lektion-3\WCF\Client\obj\Debug\Client.csproj.AssemblyReference.cache
+C:\education\kyh\kyh22-systemutveckling\lektion-3\WCF\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+C:\education\kyh\kyh22-systemutveckling\lektion-3\WCF\Client\obj\Debug\Client.csproj.CopyComplete
+C:\education\kyh\kyh22-systemutveckling\lektion-3\WCF\Client\obj\Debug\Client.exe
+C:\education\kyh\kyh22-systemutveckling\lektion-3\WCF\Client\obj\Debug\Client.pdb
