@@ -1,0 +1,47 @@
+syntax = "proto3";
+
+option csharp_namespace = "ClientApp";
+
+package customer;
+
+service Customers {
+	// Create
+	rpc CreateCustomer(CreateCustomerRequest) returns (CreateCustomerResponse) {}
+	
+	// Read
+	rpc GetCustomer(GetCustomerRequest) returns (GetCustomerResponse) {}
+	
+	rpc GetCustomers(GetCustomersRequest) returns (GetCustomersResponse) {}
+}
+
+
+
+message CreateCustomerRequest {
+	string name = 1;
+	string email = 2;
+	string phone_number = 3;
+}
+message CreateCustomerResponse {
+	int32 id = 1;
+}
+
+
+
+message GetCustomerRequest {
+	string email = 1;
+}
+message GetCustomerResponse {
+	int32 id = 1;	
+	string name = 2;
+	string email = 3;
+	string phone_number = 4;
+}
+
+
+
+message GetCustomersRequest {
+
+}
+message GetCustomersResponse {
+	repeated GetCustomerResponse customers = 1;
+}

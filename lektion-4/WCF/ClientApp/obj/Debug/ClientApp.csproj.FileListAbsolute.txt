@@ -1,0 +1,10 @@
+C:\Users\hans\Desktop\kyh\kyh22-systemutveckling\lektion-4\WCF\ClientApp\bin\Debug\ClientApp.exe.config
+C:\Users\hans\Desktop\kyh\kyh22-systemutveckling\lektion-4\WCF\ClientApp\bin\Debug\ClientApp.exe
+C:\Users\hans\Desktop\kyh\kyh22-systemutveckling\lektion-4\WCF\ClientApp\bin\Debug\ClientApp.pdb
+C:\Users\hans\Desktop\kyh\kyh22-systemutveckling\lektion-4\WCF\ClientApp\obj\Debug\ClientApp.csproj.AssemblyReference.cache
+C:\Users\hans\Desktop\kyh\kyh22-systemutveckling\lektion-4\WCF\ClientApp\obj\Debug\ClientApp.csproj.CoreCompileInputs.cache
+C:\Users\hans\Desktop\kyh\kyh22-systemutveckling\lektion-4\WCF\ClientApp\obj\Debug\ClientApp.exe
+C:\Users\hans\Desktop\kyh\kyh22-systemutveckling\lektion-4\WCF\ClientApp\obj\Debug\ClientApp.pdb
+C:\Users\hans\Desktop\kyh\kyh22-systemutveckling\lektion-4\WCF\ClientApp\bin\Debug\Newtonsoft.Json.dll
+C:\Users\hans\Desktop\kyh\kyh22-systemutveckling\lektion-4\WCF\ClientApp\bin\Debug\Newtonsoft.Json.xml
+C:\Users\hans\Desktop\kyh\kyh22-systemutveckling\lektion-4\WCF\ClientApp\obj\Debug\ClientApp.csproj.CopyComplete
