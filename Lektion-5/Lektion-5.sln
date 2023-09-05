@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleDevice", "SimpleDevic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureFunctions", "AzureFunctions\AzureFunctions.csproj", "{C2483CFE-5E62-44E2-A03B-77A90E880FD3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediumDevice", "MediumDevice\MediumDevice.csproj", "{18CBDEBA-E863-4479-8934-34854A6F1CC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvancedDevice", "AdvancedDevice\AdvancedDevice.csproj", "{6288371E-3E1A-4364-9BCB-1C6978091D57}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{C2483CFE-5E62-44E2-A03B-77A90E880FD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C2483CFE-5E62-44E2-A03B-77A90E880FD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C2483CFE-5E62-44E2-A03B-77A90E880FD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18CBDEBA-E863-4479-8934-34854A6F1CC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18CBDEBA-E863-4479-8934-34854A6F1CC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18CBDEBA-E863-4479-8934-34854A6F1CC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18CBDEBA-E863-4479-8934-34854A6F1CC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6288371E-3E1A-4364-9BCB-1C6978091D57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6288371E-3E1A-4364-9BCB-1C6978091D57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6288371E-3E1A-4364-9BCB-1C6978091D57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6288371E-3E1A-4364-9BCB-1C6978091D57}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
