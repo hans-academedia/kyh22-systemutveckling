@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleDevice", "SimpleDevice\SimpleDevice.csproj", "{E2441671-5A67-41CC-9A7E-CA99D13D90C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureFunctions", "AzureFunctions\AzureFunctions.csproj", "{C2483CFE-5E62-44E2-A03B-77A90E880FD3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2441671-5A67-41CC-9A7E-CA99D13D90C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2441671-5A67-41CC-9A7E-CA99D13D90C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2441671-5A67-41CC-9A7E-CA99D13D90C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2441671-5A67-41CC-9A7E-CA99D13D90C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2483CFE-5E62-44E2-A03B-77A90E880FD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2483CFE-5E62-44E2-A03B-77A90E880FD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2483CFE-5E62-44E2-A03B-77A90E880FD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2483CFE-5E62-44E2-A03B-77A90E880FD3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E1F953FA-8148-4B54-B700-B95DD996B747}
+	EndGlobalSection
+EndGlobal
