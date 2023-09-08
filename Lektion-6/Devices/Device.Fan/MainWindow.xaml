@@ -14,8 +14,28 @@
 
         <Grid Grid.Row="0">
             <TextBlock FontFamily="{StaticResource FontAwesome-Regular}" Text="&#xe004;" FontSize="120" HorizontalAlignment="Center" VerticalAlignment="Center" />
+            <Ellipse Height="80" Width="80" Margin="2 -12 0 0" Fill="White" />
+            <TextBlock RenderTransformOrigin="0.5 0.5" FontFamily="{StaticResource FontAwesome-Solid}" Text="&#xf863;" FontSize="80" Margin="0 -14 0 0" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <TextBlock.RenderTransform>
+                    <RotateTransform x:Name="FanBlade" Angle="0" />
+                </TextBlock.RenderTransform>
+            </TextBlock>
         </Grid>
         
         <TextBlock x:Name="ConnectivityStatus" Grid.Row="1" HorizontalAlignment="Center" Margin="5 20" Text="Disconnected" />
     </Grid>
+
+
+    <Window.Resources>
+
+        <Storyboard x:Key="FanStoryboard">
+            <DoubleAnimation
+                Storyboard.TargetName="FanBlade"
+                Storyboard.TargetProperty="Angle"
+                From="0" To="-360"
+                RepeatBehavior="Forever"
+                />
+        </Storyboard>
+
+    </Window.Resources>
 </Window>
