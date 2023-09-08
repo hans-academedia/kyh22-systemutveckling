@@ -17,5 +17,6 @@
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/fonts/fa-sharp-solid-900.ttf")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/fonts/fa-solid-900.ttf")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/fonts/fa-thin-100.ttf")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("appsettings.json")]
 
 

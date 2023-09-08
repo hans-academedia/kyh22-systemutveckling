@@ -44,6 +44,16 @@
       "frameworks": {
         "net7.0-windows7.0": {
           "targetAlias": "net7.0-windows",
+          "dependencies": {
+            "Microsoft.Azure.Devices.Client": {
+              "target": "Package",
+              "version": "[1.42.0, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

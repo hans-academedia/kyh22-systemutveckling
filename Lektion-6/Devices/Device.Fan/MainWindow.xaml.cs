@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Device.Fan.Services;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -21,10 +22,17 @@ namespace Device.Fan
     /// </summary>
     public partial class MainWindow : Window
     {
-        public MainWindow()
+        private readonly DeviceManager _deviceManager;
+        private readonly NetworkManager _networkManager;
+
+        public MainWindow(DeviceManager deviceManager, NetworkManager networkManager)
         {
             InitializeComponent();
-            Task.WhenAll(ToggleFanStateAsync());
+
+            _deviceManager = deviceManager;
+            _networkManager = networkManager;
+
+            Task.WhenAll(ToggleFanStateAsync(), CheckConnectivityAsync());
         }
 
 
@@ -34,7 +42,20 @@ namespace Device.Fan
 
             while (true)
             {
-                fan.Begin();
+                if (_deviceManager.AllowSending())
+                    fan.Begin();
+                else
+                    fan.Stop();
+
+                await Task.Delay(1000);
+            }
+        }
+
+        private async Task CheckConnectivityAsync()
+        {
+            while (true)
+            {
+                ConnectivityStatus.Text = await _networkManager.CheckConnectivityAsync();
                 await Task.Delay(1000);
             }
         }
