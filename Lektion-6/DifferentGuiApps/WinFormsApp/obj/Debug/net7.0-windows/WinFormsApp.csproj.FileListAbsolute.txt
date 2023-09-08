@@ -1,0 +1,16 @@
+C:\education\kyh\kyh22-systemutveckling\Lektion-6\DifferentGuiApps\WinFormsApp\bin\Debug\net7.0-windows\WinFormsApp.exe
+C:\education\kyh\kyh22-systemutveckling\Lektion-6\DifferentGuiApps\WinFormsApp\bin\Debug\net7.0-windows\WinFormsApp.deps.json
+C:\education\kyh\kyh22-systemutveckling\Lektion-6\DifferentGuiApps\WinFormsApp\bin\Debug\net7.0-windows\WinFormsApp.runtimeconfig.json
+C:\education\kyh\kyh22-systemutveckling\Lektion-6\DifferentGuiApps\WinFormsApp\bin\Debug\net7.0-windows\WinFormsApp.dll
+C:\education\kyh\kyh22-systemutveckling\Lektion-6\DifferentGuiApps\WinFormsApp\bin\Debug\net7.0-windows\WinFormsApp.pdb
+C:\education\kyh\kyh22-systemutveckling\Lektion-6\DifferentGuiApps\WinFormsApp\obj\Debug\net7.0-windows\WinFormsApp.Form1.resources
+C:\education\kyh\kyh22-systemutveckling\Lektion-6\DifferentGuiApps\WinFormsApp\obj\Debug\net7.0-windows\WinFormsApp.csproj.GenerateResource.cache
+C:\education\kyh\kyh22-systemutveckling\Lektion-6\DifferentGuiApps\WinFormsApp\obj\Debug\net7.0-windows\WinFormsApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\education\kyh\kyh22-systemutveckling\Lektion-6\DifferentGuiApps\WinFormsApp\obj\Debug\net7.0-windows\WinFormsApp.AssemblyInfoInputs.cache
+C:\education\kyh\kyh22-systemutveckling\Lektion-6\DifferentGuiApps\WinFormsApp\obj\Debug\net7.0-windows\WinFormsApp.AssemblyInfo.cs
+C:\education\kyh\kyh22-systemutveckling\Lektion-6\DifferentGuiApps\WinFormsApp\obj\Debug\net7.0-windows\WinFormsApp.csproj.CoreCompileInputs.cache
+C:\education\kyh\kyh22-systemutveckling\Lektion-6\DifferentGuiApps\WinFormsApp\obj\Debug\net7.0-windows\WinFormsApp.dll
+C:\education\kyh\kyh22-systemutveckling\Lektion-6\DifferentGuiApps\WinFormsApp\obj\Debug\net7.0-windows\refint\WinFormsApp.dll
+C:\education\kyh\kyh22-systemutveckling\Lektion-6\DifferentGuiApps\WinFormsApp\obj\Debug\net7.0-windows\WinFormsApp.pdb
+C:\education\kyh\kyh22-systemutveckling\Lektion-6\DifferentGuiApps\WinFormsApp\obj\Debug\net7.0-windows\WinFormsApp.genruntimeconfig.cache
+C:\education\kyh\kyh22-systemutveckling\Lektion-6\DifferentGuiApps\WinFormsApp\obj\Debug\net7.0-windows\ref\WinFormsApp.dll
