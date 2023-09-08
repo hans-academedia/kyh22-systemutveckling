@@ -18,3 +18,5 @@ C:\education\kyh\kyh22-systemutveckling\Lektion-6\Devices\Device.Fan\obj\Debug\n
 C:\education\kyh\kyh22-systemutveckling\Lektion-6\Devices\Device.Fan\obj\Debug\net7.0-windows\Device.Fan.pdb
 C:\education\kyh\kyh22-systemutveckling\Lektion-6\Devices\Device.Fan\obj\Debug\net7.0-windows\Device.Fan.genruntimeconfig.cache
 C:\education\kyh\kyh22-systemutveckling\Lektion-6\Devices\Device.Fan\obj\Debug\net7.0-windows\ref\Device.Fan.dll
+C:\education\kyh\kyh22-systemutveckling\Lektion-6\Devices\Device.Fan\obj\Debug\net7.0-windows\Resources\FontDictionary.baml
+C:\education\kyh\kyh22-systemutveckling\Lektion-6\Devices\Device.Fan\obj\Debug\net7.0-windows\App.baml

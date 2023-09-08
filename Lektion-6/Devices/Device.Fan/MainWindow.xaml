@@ -13,7 +13,7 @@
         </Grid.RowDefinitions>
 
         <Grid Grid.Row="0">
-            
+            <TextBlock FontFamily="{StaticResource FontAwesome-Regular}" Text="&#xe004;"  />
         </Grid>
 
         <TextBlock x:Name="ConnectivityStatus" Grid.Row="1" Text="Disconnected" HorizontalAlignment="Center" Margin="5 20" TextWrapping="Wrap" />

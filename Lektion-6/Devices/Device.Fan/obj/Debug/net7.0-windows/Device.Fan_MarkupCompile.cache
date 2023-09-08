@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET7_0;NETCOREAPP
 C:\education\kyh\kyh22-systemutveckling\Lektion-6\Devices\Device.Fan\App.xaml
-11407045341
+2423204617
 
 3-1233169557
 198947991364
-MainWindow.xaml;
+MainWindow.xaml;Resources\FontDictionary.xaml;
 
 False
 
