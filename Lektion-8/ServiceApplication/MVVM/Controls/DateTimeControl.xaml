@@ -1,0 +1,13 @@
+﻿<UserControl x:Class="ServiceApplication.MVVM.Controls.DateTimeControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ServiceApplication.MVVM.Controls"
+             mc:Ignorable="d" 
+             >
+    <StackPanel HorizontalAlignment="Center">
+        <TextBlock Text="10:30" FontSize="82" Margin="0 -25 0 0" Padding="0" Foreground="#f5f5f5" HorizontalAlignment="Center" VerticalAlignment="Top" />
+        <TextBlock Text="Monday, 15 september 2023" FontSize="22" Foreground="#cccccc" HorizontalAlignment="Center" />
+    </StackPanel>
+</UserControl>
