@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HansMattin-Lassei\\Desktop\\Lektion-8\\ServiceApplication\\ServiceApplication.csproj": {}
+    "C:\\education\\kyh\\kyh22-systemutveckling\\Lektion-8\\ServiceApplication\\ServiceApplication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HansMattin-Lassei\\Desktop\\Lektion-8\\ServiceApplication\\ServiceApplication.csproj": {
+    "C:\\education\\kyh\\kyh22-systemutveckling\\Lektion-8\\ServiceApplication\\ServiceApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HansMattin-Lassei\\Desktop\\Lektion-8\\ServiceApplication\\ServiceApplication.csproj",
+        "projectUniqueName": "C:\\education\\kyh\\kyh22-systemutveckling\\Lektion-8\\ServiceApplication\\ServiceApplication.csproj",
         "projectName": "ServiceApplication",
-        "projectPath": "C:\\Users\\HansMattin-Lassei\\Desktop\\Lektion-8\\ServiceApplication\\ServiceApplication.csproj",
+        "projectPath": "C:\\education\\kyh\\kyh22-systemutveckling\\Lektion-8\\ServiceApplication\\ServiceApplication.csproj",
         "packagesPath": "C:\\Users\\HansMattin-Lassei\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HansMattin-Lassei\\Desktop\\Lektion-8\\ServiceApplication\\obj\\",
+        "outputPath": "C:\\education\\kyh\\kyh22-systemutveckling\\Lektion-8\\ServiceApplication\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
