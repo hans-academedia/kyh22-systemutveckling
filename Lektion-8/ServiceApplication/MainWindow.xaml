@@ -38,11 +38,7 @@
                 <Button Grid.Column="2" FontFamily="{StaticResource FontAwesome-Regular}" FontSize="40" Content="&#xf142;" Background="Transparent" Foreground="#cccccc" HorizontalAlignment="Right" VerticalAlignment="Top" BorderThickness="0" />
             </Grid>
 
-            <ItemsControl Grid.Row="1" Margin="0 20 0 0">
-
-                <controls:DeviceTileControl />
-
-
+            <ItemsControl x:Name="DeviceList" ItemsSource="{Binding Devices}" Grid.Row="1" Margin="0 20 0 0">
                 <ItemsControl.ItemsPanel>
                     <ItemsPanelTemplate>
                         <WrapPanel HorizontalAlignment="Center" VerticalAlignment="Center" />
@@ -51,7 +47,7 @@
 
                 <ItemsControl.ItemTemplate>
                     <DataTemplate>
-                        
+                        <controls:DeviceTileControl />
                     </DataTemplate>
                 </ItemsControl.ItemTemplate>
             </ItemsControl>

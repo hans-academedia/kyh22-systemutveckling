@@ -8,9 +8,9 @@
              >
     
     <StackPanel Orientation="Horizontal" >
-        <TextBlock FontFamily="{StaticResource FontAwesome-Regular }" FontSize="50" Text="&#xf0c2;" Foreground="#cccccc" />
+        <TextBlock FontFamily="{StaticResource FontAwesome-Regular }" FontSize="50" Text="{Binding Condition, FallbackValue=&#xe137;}" Foreground="#cccccc" />
         <TextBlock FontSize="24" Margin="15 5 0 0" Foreground="#cccccc">
-            <Run Text="20" FontSize="28" />
+            <Run Text="{Binding Temperature, FallbackValue=--}" FontSize="28" />
             <Run Text="°C" FontSize="18" BaselineAlignment="Center" />
         </TextBlock>
     </StackPanel>

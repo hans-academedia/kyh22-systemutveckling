@@ -79,3 +79,6 @@ C:\education\kyh\kyh22-systemutveckling\Lektion-8\ServiceApplication\obj\Debug\n
 C:\education\kyh\kyh22-systemutveckling\Lektion-8\ServiceApplication\obj\Debug\net7.0-windows\ServiceApplication.genruntimeconfig.cache
 C:\education\kyh\kyh22-systemutveckling\Lektion-8\ServiceApplication\obj\Debug\net7.0-windows\ref\ServiceApplication.dll
 C:\education\kyh\kyh22-systemutveckling\Lektion-8\ServiceApplication\obj\Debug\net7.0-windows\Resources\Styles\DeviceTileDictionary.baml
+C:\education\kyh\kyh22-systemutveckling\Lektion-8\ServiceApplication\bin\Debug\net7.0-windows\Newtonsoft.Json.dll
+C:\education\kyh\kyh22-systemutveckling\Lektion-8\ServiceApplication\obj\Debug\net7.0-windows\ServiceApplication.csproj.AssemblyReference.cache
+C:\education\kyh\kyh22-systemutveckling\Lektion-8\ServiceApplication\obj\Debug\net7.0-windows\ServiceApplication.csproj.CopyComplete

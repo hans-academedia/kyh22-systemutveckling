@@ -6,5 +6,15 @@ public class DeviceItem
     public string? DeviceType { get; set; }
     public string? Placement { get; set; }
     public bool IsActive { get; set; } = false;
-    public string? Icon { get; set; } = "\uf2db";
+    public string? Icon => SetIcon();
+
+    private string SetIcon()
+    {
+        return (DeviceType?.ToLower()) switch
+        {
+            "light" => "\uf0eb",
+            "fan" => "\ue004",
+            _ => "\uf2db",
+        };
+    }
 }

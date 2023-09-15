@@ -7,7 +7,7 @@
              mc:Ignorable="d" 
              >
     <StackPanel HorizontalAlignment="Center">
-        <TextBlock Text="10:30" FontSize="82" Margin="0 -25 0 0" Padding="0" Foreground="#f5f5f5" HorizontalAlignment="Center" VerticalAlignment="Top" />
-        <TextBlock Text="Monday, 15 september 2023" FontSize="22" Foreground="#cccccc" HorizontalAlignment="Center" />
+        <TextBlock Text="{Binding CurrentTime, FallbackValue=--:--}" FontSize="82" Margin="0 -25 0 0" Padding="0" Foreground="#f5f5f5" HorizontalAlignment="Center" VerticalAlignment="Top" />
+        <TextBlock Text="{Binding CurrentDate}" FontSize="22" Foreground="#cccccc" HorizontalAlignment="Center" />
     </StackPanel>
 </UserControl>
