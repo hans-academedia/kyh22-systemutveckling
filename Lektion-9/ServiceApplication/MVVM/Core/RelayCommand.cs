@@ -9,23 +9,17 @@ public class RelayCommand : ICommand
 	private readonly Func<object, bool> _canExecute;
 	public event EventHandler? CanExecuteChanged;
 
-
 	public RelayCommand(Action execute, Func<bool> canExecute = null!)
 		: this (_ => execute(), canExecute != null ? _ => canExecute() : null!)
 	{
 
 	}
 
-
 	public RelayCommand(Action<object> execute, Func<object, bool> canExecute = null!)
 	{
 		_execute = execute ?? throw new ArgumentException(nameof(execute));
 		_canExecute = canExecute ?? (_ => true);
 	}
-
-	
-
-
 
 	public bool CanExecute(object? parameter) => _canExecute(parameter!);
 	public void Execute(object? parameter) => _execute(parameter!);
