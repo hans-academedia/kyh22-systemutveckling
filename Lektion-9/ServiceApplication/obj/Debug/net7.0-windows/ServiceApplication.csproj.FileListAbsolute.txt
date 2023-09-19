@@ -31,3 +31,9 @@ C:\education\kyh\kyh22-systemutveckling\Lektion-9\ServiceApplication\obj\Debug\n
 C:\education\kyh\kyh22-systemutveckling\Lektion-9\ServiceApplication\obj\Debug\net7.0-windows\ServiceApplication.pdb
 C:\education\kyh\kyh22-systemutveckling\Lektion-9\ServiceApplication\obj\Debug\net7.0-windows\ServiceApplication.genruntimeconfig.cache
 C:\education\kyh\kyh22-systemutveckling\Lektion-9\ServiceApplication\obj\Debug\net7.0-windows\ref\ServiceApplication.dll
+C:\education\kyh\kyh22-systemutveckling\Lektion-9\ServiceApplication\obj\Debug\net7.0-windows\MVVM\Views\HomeView.g.cs
+C:\education\kyh\kyh22-systemutveckling\Lektion-9\ServiceApplication\obj\Debug\net7.0-windows\MVVM\Views\SettingsView.g.cs
+C:\education\kyh\kyh22-systemutveckling\Lektion-9\ServiceApplication\obj\Debug\net7.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\education\kyh\kyh22-systemutveckling\Lektion-9\ServiceApplication\obj\Debug\net7.0-windows\MVVM\Views\HomeView.baml
+C:\education\kyh\kyh22-systemutveckling\Lektion-9\ServiceApplication\obj\Debug\net7.0-windows\MVVM\Views\SettingsView.baml
+C:\education\kyh\kyh22-systemutveckling\Lektion-9\ServiceApplication\obj\Debug\net7.0-windows\Resources\ViewModelDataTemplateDictionary.baml
