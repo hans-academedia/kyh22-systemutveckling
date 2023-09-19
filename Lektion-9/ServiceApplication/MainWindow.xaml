@@ -5,7 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ServiceApplication"
         mc:Ignorable="d"
-        Title="Sevice Application" Height="720" Width="1280">
+        WindowStyle="None"
+        WindowStartupLocation="CenterScreen"
+        Title="Sevice Application" Height="690" Width="1280">
     <Grid>
         <Image Source="Assets/Images/background.jpg" Stretch="Fill" />
         <ContentControl Content="{Binding CurrentViewModel}" />

@@ -4,8 +4,10 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:ServiceApplication.MVVM.Views"
+             xmlns:viewModels="clr-namespace:ServiceApplication.MVVM.ViewModels"
+             d:DataContext="{d:DesignInstance Type=viewModels:HomeViewModel}"
              mc:Ignorable="d" 
-             Height="720" Width="1280">
+             Height="680" Width="1280">
     <Grid>
         <Rectangle Fill="#000000" Opacity="0.82" />
 
@@ -26,9 +28,15 @@
                 <!--Weather Section-->
                 
                 <!--DateTime Section-->
-                
+                <StackPanel Grid.Column="1" HorizontalAlignment="Center">
+                    <TextBlock Text="{Binding CurrentTime, FallbackValue=--:--}" FontSize="82" Margin="0 -25 0 0" Padding="0" Foreground="#f5f5f5" HorizontalAlignment="Center" VerticalAlignment="Top" />
+                    <TextBlock Text="{Binding CurrentDate}" FontSize="22" Foreground="#cccccc" HorizontalAlignment="Center" />
+                </StackPanel>
+
+
+
                 <!--Settings-Button Section-->
-                <Button Grid.Column="2" Command="" Style="{StaticResource SettingsButton}" />
+                <Button Grid.Column="2" Command="{Binding NavigateToSettingsCommand}" Style="{StaticResource SettingsButton}" />
 
             </Grid>
 
