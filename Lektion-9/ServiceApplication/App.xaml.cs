@@ -8,11 +8,11 @@ namespace ServiceApplication;
 
 public partial class App : Application
 {
-	private static IHost? host { get; set; }
+	private static IHost? AppHost { get; set; }
 
 	public App()
 	{
-		host = Host.CreateDefaultBuilder()
+		AppHost = Host.CreateDefaultBuilder()
 			.ConfigureServices((config, services) =>
 			{
 				services.AddSingleton<NavigationStore>();
@@ -25,11 +25,11 @@ public partial class App : Application
 
 	protected override async void OnStartup(StartupEventArgs args)
 	{
-		var mainWindow = host!.Services.GetRequiredService<MainWindow>();
-		var navigationStore = host!.Services.GetRequiredService<NavigationStore>();
+		var mainWindow = AppHost!.Services.GetRequiredService<MainWindow>();
+		var navigationStore = AppHost!.Services.GetRequiredService<NavigationStore>();
 		navigationStore.CurrentViewModel = new HomeViewModel();
 
-		await host!.StartAsync();
+		await AppHost!.StartAsync();
 		mainWindow.Show();
 		base.OnStartup(args);
 	}

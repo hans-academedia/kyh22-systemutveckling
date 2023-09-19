@@ -28,7 +28,7 @@
                 <!--DateTime Section-->
                 
                 <!--Settings-Button Section-->
-                <Button Grid.Column="2" Style="{StaticResource SettingsButton}" />
+                <Button Grid.Column="2" Command="" Style="{StaticResource SettingsButton}" />
 
             </Grid>
 
