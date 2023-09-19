@@ -1,5 +1,7 @@
-﻿namespace ServiceApplication.MVVM.ViewModels;
+﻿using ServiceApplication.MVVM.Core;
 
-public class SettingsViewModel
+namespace ServiceApplication.MVVM.ViewModels;
+
+public class SettingsViewModel : ObservableObject
 {
 }

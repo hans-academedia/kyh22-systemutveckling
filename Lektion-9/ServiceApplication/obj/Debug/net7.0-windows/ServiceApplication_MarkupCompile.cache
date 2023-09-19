@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET7_0;NETCOREAPP
 C:\education\kyh\kyh22-systemutveckling\Lektion-9\ServiceApplication\App.xaml
-5-862416228
+6-860451089
 102102507104
-8-1133308547
-198-759771931
-MainWindow.xaml;MVVM\Views\HomeView.xaml;MVVM\Views\SettingsView.xaml;Resources\FontsDictionary.xaml;Resources\ViewModelDataTemplateDictionary.xaml;
+9-635451261
+223296428285
+MainWindow.xaml;MVVM\Views\HomeView.xaml;MVVM\Views\SettingsView.xaml;Resources\ButtonsDictionary.xaml;Resources\FontsDictionary.xaml;Resources\ViewModelDataTemplateDictionary.xaml;
 
 False
 

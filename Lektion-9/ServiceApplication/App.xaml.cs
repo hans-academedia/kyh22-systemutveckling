@@ -1,17 +1,36 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Data;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+using ServiceApplication.MVVM.Core;
+using ServiceApplication.MVVM.ViewModels;
 using System.Windows;
 
-namespace ServiceApplication
+namespace ServiceApplication;
+
+public partial class App : Application
 {
-	/// <summary>
-	/// Interaction logic for App.xaml
-	/// </summary>
-	public partial class App : Application
+	private static IHost? host { get; set; }
+
+	public App()
 	{
+		host = Host.CreateDefaultBuilder()
+			.ConfigureServices((config, services) =>
+			{
+				services.AddSingleton<NavigationStore>();
+				services.AddSingleton<MainWindow>();
+				services.AddSingleton<HomeViewModel>();
+				services.AddSingleton<SettingsViewModel>();
+			})
+			.Build();
+	}
+
+	protected override async void OnStartup(StartupEventArgs args)
+	{
+		var mainWindow = host!.Services.GetRequiredService<MainWindow>();
+		var navigationStore = host!.Services.GetRequiredService<NavigationStore>();
+		navigationStore.CurrentViewModel = new HomeViewModel();
+
+		await host!.StartAsync();
+		mainWindow.Show();
+		base.OnStartup(args);
 	}
 }
