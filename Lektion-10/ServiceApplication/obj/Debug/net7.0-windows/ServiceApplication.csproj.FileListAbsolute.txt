@@ -68,3 +68,10 @@ C:\education\kyh\kyh22-systemutveckling\Lektion-10\ServiceApplication\bin\Debug\
 C:\education\kyh\kyh22-systemutveckling\Lektion-10\ServiceApplication\obj\Debug\net7.0-windows\Resources\ButtonsDictionary.baml
 C:\education\kyh\kyh22-systemutveckling\Lektion-10\ServiceApplication\obj\Debug\net7.0-windows\Resources\WeatherSectionDictionary.baml
 C:\education\kyh\kyh22-systemutveckling\Lektion-10\ServiceApplication\obj\Debug\net7.0-windows\Resources\DateAndTimeSectionDictionary.baml
+C:\education\kyh\kyh22-systemutveckling\Lektion-10\ServiceApplication\bin\Debug\net7.0-windows\Azure.Core.dll
+C:\education\kyh\kyh22-systemutveckling\Lektion-10\ServiceApplication\bin\Debug\net7.0-windows\Microsoft.Azure.Amqp.dll
+C:\education\kyh\kyh22-systemutveckling\Lektion-10\ServiceApplication\bin\Debug\net7.0-windows\Microsoft.Azure.Devices.dll
+C:\education\kyh\kyh22-systemutveckling\Lektion-10\ServiceApplication\bin\Debug\net7.0-windows\Microsoft.Azure.Devices.Shared.dll
+C:\education\kyh\kyh22-systemutveckling\Lektion-10\ServiceApplication\bin\Debug\net7.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\education\kyh\kyh22-systemutveckling\Lektion-10\ServiceApplication\bin\Debug\net7.0-windows\Microsoft.Rest.ClientRuntime.dll
+C:\education\kyh\kyh22-systemutveckling\Lektion-10\ServiceApplication\bin\Debug\net7.0-windows\System.Memory.Data.dll

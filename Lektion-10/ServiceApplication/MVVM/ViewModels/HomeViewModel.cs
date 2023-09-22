@@ -71,7 +71,8 @@ public partial class HomeViewModel : ObservableObject
 		_weatherService.WeatherUpdated += () =>
 		{
 			CurrentWeatherCondition = _weatherService.CurrentWeatherCondition;
-			CurrentOutsideTemperature = _weatherService.CurrentTemperature;
+			CurrentOutsideTemperature = _weatherService.CurrentOutsideTemperature;
+			CurrentInsideTemperature = _weatherService.CurrentInsideTemperature;
 		};
 	}
 }

@@ -19,6 +19,7 @@ public partial class App : Application
 				services.AddTransient<HttpClient>();
 				services.AddSingleton<DateAndTimeService>();
 				services.AddSingleton<WeatherService>();
+				services.AddSingleton<DeviceService>();
 
 				services.AddSingleton<HomeViewModel>();
 				services.AddSingleton<SettingsViewModel>();
