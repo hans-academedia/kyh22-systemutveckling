@@ -4,12 +4,26 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ServiceApplication"
+        xmlns:viewmodels="clr-namespace:ServiceApplication.MVVM.ViewModels"
+        xmlns:views="clr-namespace:ServiceApplication.MVVM.Views"
         mc:Ignorable="d"
         WindowStartupLocation="CenterScreen"
         WindowState="Maximized"
+        WindowStyle="None"
         Title="Service Application" Height="800" Width="1280">
     <Grid>
         <Image Source="Assets/Images/background.jpg" Stretch="Fill" />
-        <ContentControl Content="{Binding CurrentViewModel}" />
+        <ContentControl Content="{Binding CurrentViewModel}">
+            
+            <ContentControl.Resources>
+                <DataTemplate DataType="{x:Type viewmodels:HomeViewModel}">
+                    <views:HomeView />
+                </DataTemplate>
+                <DataTemplate DataType="{x:Type viewmodels:SettingsViewModel}">
+                    <views:SettingsView />
+                </DataTemplate>
+            </ContentControl.Resources>
+        
+        </ContentControl>
     </Grid>
 </Window>

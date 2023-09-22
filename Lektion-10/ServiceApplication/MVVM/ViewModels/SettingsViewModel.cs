@@ -1,11 +1,19 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
+using Microsoft.Extensions.DependencyInjection;
 using System;
 
 namespace ServiceApplication.MVVM.ViewModels;
 
 public partial class SettingsViewModel : ObservableObject
 {
+	private readonly IServiceProvider _serviceProvider;
+
+	public SettingsViewModel(IServiceProvider serviceProvider)
+	{
+		_serviceProvider = serviceProvider;
+	}
+
 	[ObservableProperty]
 	private string? _title = "Settings";
 
@@ -15,7 +23,8 @@ public partial class SettingsViewModel : ObservableObject
 	[RelayCommand]
 	private void NavigateToHome()
 	{
-
+		var mainWindowViewModel = _serviceProvider.GetRequiredService<MainWindowViewModel>();
+		mainWindowViewModel.CurrentViewModel = _serviceProvider.GetRequiredService<HomeViewModel>();
 	}
 
 	[RelayCommand]

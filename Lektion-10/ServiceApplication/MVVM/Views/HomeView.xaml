@@ -27,18 +27,18 @@
                 
                 <!-- Weather Section -->
                 <StackPanel Grid.Column="0" Orientation="Horizontal" HorizontalAlignment="Left">
-                    <TextBlock Text="{Binding CurrentWeatherCondition, FallbackValue=&#xe137;}" />
+                    <TextBlock Text="{Binding CurrentWeatherCondition, FallbackValue=&#xe137;}" Foreground="White" FontSize="22" />
                     <TextBlock>
-                        <Run Text="{Binding CurrentTemperature, FallbackValue=--}" />
-                        <Run Text="{Binding CurrentTemperatureUnit, FallbackValue=°C}" />
+                        <Run Text="{Binding CurrentTemperature, FallbackValue=--}" Foreground="White" FontSize="22" />
+                        <Run Text="{Binding CurrentTemperatureUnit, FallbackValue=°C}" Foreground="White" FontSize="22" />
                     </TextBlock>
                 </StackPanel>
                     
                     
                 <!-- DateAndTime Section -->
                 <StackPanel Grid.Column="1" HorizontalAlignment="Center">
-                    <TextBlock Text="{Binding CurrentTime, FallbackValue=--:--}" />
-                    <TextBlock Text="{Binding CurrentDate}" />
+                    <TextBlock Text="{Binding CurrentTime, FallbackValue=--:--}" Foreground="White" FontSize="82" HorizontalAlignment="Center" />
+                    <TextBlock Text="{Binding CurrentDate}" Foreground="White" FontSize="22" HorizontalAlignment="Center" />
                 </StackPanel>        
                         
                     
