@@ -7,6 +7,9 @@
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="./Resources/FontsDictionary.xaml" />
+                <ResourceDictionary Source="./Resources/ButtonsDictionary.xaml" />
+                <ResourceDictionary Source="./Resources/WeatherSectionDictionary.xaml" />
+                <ResourceDictionary Source="./Resources/DateAndTimeSectionDictionary.xaml" />
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Application.Resources>

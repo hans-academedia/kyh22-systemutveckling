@@ -36,10 +36,16 @@ public partial class HomeViewModel : ObservableObject
 	private string? _currentWeatherCondition = "\ue137";
 
 	[ObservableProperty]
-	private string? _currentTemperature = "--";
+	private string? _currentOutsideTemperature = "--";
 
 	[ObservableProperty]
-	private string? _currentTemperatureUnit = "°C";
+	private string? _currentOutsideTemperatureUnit = "°C";
+
+	[ObservableProperty]
+	private string? _currentInsideTemperature = "--";
+
+	[ObservableProperty]
+	private string? _currentInsideTemperatureUnit = "°C";
 
 	[RelayCommand]
 	private void NavigateToSettings()
@@ -65,7 +71,7 @@ public partial class HomeViewModel : ObservableObject
 		_weatherService.WeatherUpdated += () =>
 		{
 			CurrentWeatherCondition = _weatherService.CurrentWeatherCondition;
-			CurrentTemperature = _weatherService.CurrentTemperature;
+			CurrentOutsideTemperature = _weatherService.CurrentTemperature;
 		};
 	}
 }

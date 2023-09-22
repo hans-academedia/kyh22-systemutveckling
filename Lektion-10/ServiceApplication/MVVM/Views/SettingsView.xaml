@@ -22,10 +22,10 @@
                 <Rectangle Fill="#222222" />
 
                 <StackPanel VerticalAlignment="Bottom">
-                    <Button Command="{Binding ShowAddDeviceCommand}" Content="&#x2b;" />
-                    <Button Command="{Binding ShowDeviceListCommand}" Content="&#xf03a;" />
-                    <Button Command="{Binding ShowConfigurationCommand}" Content="&#xf013;" />
-                    <Button Command="{Binding ExitApplicationCommand}" Content="&#xf011;" />
+                    <Button Command="{Binding ShowAddDeviceCommand}" Content="&#x2b;" Style="{StaticResource MenuButton}" />
+                    <Button Command="{Binding ShowDeviceListCommand}" Content="&#xf03a;" Style="{StaticResource MenuButton}" />
+                    <Button Command="{Binding ShowConfigurationCommand}" Content="&#xf013;" Style="{StaticResource MenuButton}" />
+                    <Button Command="{Binding ExitApplicationCommand}" Content="&#xf011;" Style="{StaticResource MenuButton}" Margin="20 40 20 30" />
                 </StackPanel>
             </Grid>
             
@@ -44,10 +44,10 @@
                     </Grid.ColumnDefinitions>
                     
                     <!-- Headline Section -->
-                    <TextBlock Grid.Column="0" Text="{Binding Title, FallbackValue=Settings}" Foreground="White" />
+                    <TextBlock Grid.Column="0" Text="{Binding Title, FallbackValue=Settings}" FontSize="42" Foreground="#f5f5f5" />
                     
                     <!-- Home Button Section -->
-                    <Button Grid.Column="1" Command="{Binding NavigateToHomeCommand}" Content="X" />
+                    <Button Grid.Column="1" Command="{Binding NavigateToHomeCommand}"  Style="{StaticResource CancelButton}" />
                 </Grid>
                 
                 

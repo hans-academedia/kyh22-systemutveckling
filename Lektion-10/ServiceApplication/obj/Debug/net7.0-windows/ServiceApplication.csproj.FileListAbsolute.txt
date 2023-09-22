@@ -65,3 +65,6 @@ C:\education\kyh\kyh22-systemutveckling\Lektion-10\ServiceApplication\obj\Debug\
 C:\education\kyh\kyh22-systemutveckling\Lektion-10\ServiceApplication\obj\Debug\net7.0-windows\MVVM\Views\SettingsView.baml
 C:\education\kyh\kyh22-systemutveckling\Lektion-10\ServiceApplication\obj\Debug\net7.0-windows\GeneratedInternalTypeHelper.g.cs
 C:\education\kyh\kyh22-systemutveckling\Lektion-10\ServiceApplication\bin\Debug\net7.0-windows\Newtonsoft.Json.dll
+C:\education\kyh\kyh22-systemutveckling\Lektion-10\ServiceApplication\obj\Debug\net7.0-windows\Resources\ButtonsDictionary.baml
+C:\education\kyh\kyh22-systemutveckling\Lektion-10\ServiceApplication\obj\Debug\net7.0-windows\Resources\WeatherSectionDictionary.baml
+C:\education\kyh\kyh22-systemutveckling\Lektion-10\ServiceApplication\obj\Debug\net7.0-windows\Resources\DateAndTimeSectionDictionary.baml

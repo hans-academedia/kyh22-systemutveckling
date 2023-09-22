@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET7_0;NETCOREAPP
 C:\education\kyh\kyh22-systemutveckling\Lektion-10\ServiceApplication\App.xaml
-4-2047201703
+71058285071
 102102507104
 121211852994
 225-1250209664
-MainWindow.xaml;MVVM\Views\HomeView.xaml;MVVM\Views\SettingsView.xaml;Resources\FontsDictionary.xaml;
+MainWindow.xaml;MVVM\Views\HomeView.xaml;MVVM\Views\SettingsView.xaml;Resources\ButtonsDictionary.xaml;Resources\DateAndTimeSectionDictionary.xaml;Resources\FontsDictionary.xaml;Resources\WeatherSectionDictionary.xaml;
 
 False
 

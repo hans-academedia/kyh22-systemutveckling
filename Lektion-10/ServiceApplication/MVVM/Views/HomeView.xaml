@@ -27,23 +27,30 @@
                 
                 <!-- Weather Section -->
                 <StackPanel Grid.Column="0" Orientation="Horizontal" HorizontalAlignment="Left">
-                    <TextBlock Text="{Binding CurrentWeatherCondition, FallbackValue=&#xe137;}" Foreground="White" FontSize="22" />
-                    <TextBlock>
-                        <Run Text="{Binding CurrentTemperature, FallbackValue=--}" Foreground="White" FontSize="22" />
-                        <Run Text="{Binding CurrentTemperatureUnit, FallbackValue=°C}" Foreground="White" FontSize="22" />
-                    </TextBlock>
+                    <TextBlock Text="{Binding CurrentWeatherCondition, FallbackValue=&#xe137;}" Style="{StaticResource WeatherCondition }" />
+                    <StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="{Binding CurrentOutsideTemperature, FallbackValue=--}" Style="{StaticResource WeatherOutsideTemperature}" />
+                            <TextBlock Text="{Binding CurrentOutsideTemperatureUnit, FallbackValue=°C}" Style="{StaticResource WeatherOutsideTemperatureUnit}" />
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="{Binding CurrentInsideTemperature, FallbackValue=--}" Style="{StaticResource WeatherInsideTemperature}" />
+                            <TextBlock Text="{Binding CurrentInsideTemperatureUnit, FallbackValue=°C}" Style="{StaticResource WeatherInsideTemperatureUnit}" />
+                        </StackPanel>
+                    </StackPanel>
+
                 </StackPanel>
                     
                     
                 <!-- DateAndTime Section -->
                 <StackPanel Grid.Column="1" HorizontalAlignment="Center">
-                    <TextBlock Text="{Binding CurrentTime, FallbackValue=--:--}" Foreground="White" FontSize="82" HorizontalAlignment="Center" />
-                    <TextBlock Text="{Binding CurrentDate}" Foreground="White" FontSize="22" HorizontalAlignment="Center" />
+                    <TextBlock Text="{Binding CurrentTime, FallbackValue=--:--}" Style="{StaticResource CurrentTime}" />
+                    <TextBlock Text="{Binding CurrentDate}" Style="{StaticResource CurrentDate}" />
                 </StackPanel>        
                         
                     
                 <!-- Settings Button Section -->
-                <Button Grid.Column="2" Command="{Binding NavigateToSettingsCommand}" HorizontalAlignment="Right" />
+                <Button Grid.Column="2" Command="{Binding NavigateToSettingsCommand}" Style="{StaticResource SettingsButton}" />
             </Grid>
                 
             <!-- Content Section -->
