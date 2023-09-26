@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:viewModels="clr-namespace:SmartHome.MVVM.ViewModels"
+             x:DataType="viewModels:AllDevicesViewModel"
+             x:Class="SmartHome.MVVM.Pages.AllDevicesPage"
+             Title="AllDevicesPage"
+             Shell.NavBarIsVisible="False"
+             >
+    <ContentPage.Behaviors>
+        <toolkit:StatusBarBehavior StatusBarColor="{StaticResource Black}" />
+    </ContentPage.Behaviors>
+
+    <Grid RowDefinitions="auto,*" Padding="20" VerticalOptions="Start">
+
+        <Button Grid.Row="0" Command="{Binding GoBackCommand}" Text="&#xf00d;" Style="{StaticResource NavigationButton}" HorizontalOptions="End" VerticalOptions="Center" />
+
+        <VerticalStackLayout Grid.Row="1" VerticalOptions="Start">
+            <Label Text="All Devices" />
+        </VerticalStackLayout>
+
+    </Grid>
+</ContentPage>

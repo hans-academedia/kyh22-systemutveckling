@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:viewModels="clr-namespace:SmartHome.MVVM.ViewModels"
+             x:DataType="viewModels:SettingsViewModel"
+             x:Class="SmartHome.MVVM.Pages.SettingsPage"
+             Title="SettingsPage"
+             Shell.NavBarIsVisible="False"
+             >
+    <ContentPage.Behaviors>
+        <toolkit:StatusBarBehavior StatusBarColor="{StaticResource Black}" />
+    </ContentPage.Behaviors>
+
+    <Grid RowDefinitions="auto,*" Padding="20" VerticalOptions="Start">
+
+        <Button Grid.Row="0" Command="{Binding GoBackCommand}" Text="&#xf00d;" Style="{StaticResource NavigationButton}" HorizontalOptions="End" VerticalOptions="Center" />
+
+        <VerticalStackLayout Grid.Row="1" VerticalOptions="Start">
+            <Label Text="Global Settings" />
+            <Grid ColumnDefinitions="*,*">
+                <Label Grid.Column="0" Text="IP-Address" FontSize="14" TextColor="{StaticResource Gray400}" />
+                <Label Grid.Column="1" Text="192.168.1.101" FontSize="14" TextColor="{StaticResource Gray400}" HorizontalOptions="End" />
+            </Grid>
+            <Grid ColumnDefinitions="*,*">
+                <Label Grid.Column="0" Text="Subnet Mask" FontSize="14" TextColor="{StaticResource Gray400}" />
+                <Label Grid.Column="1" Text="255.255.255.0" FontSize="14" TextColor="{StaticResource Gray400}" HorizontalOptions="End" />
+            </Grid>
+            <Grid ColumnDefinitions="*,*">
+                <Label Grid.Column="0" Text="Gateway" FontSize="14" TextColor="{StaticResource Gray400}" />
+                <Label Grid.Column="1" Text="192.168.1.1" FontSize="14" TextColor="{StaticResource Gray400}" HorizontalOptions="End" />
+            </Grid>
+
+            <Label Text="Azure Settings" Margin="0, 30, 0 ,0 " />
+            <Grid ColumnDefinitions="*,*">
+                <Label Grid.Column="0" Text="Azure IoT-Hub" FontSize="14" TextColor="{StaticResource Gray400}" />
+                <Label Grid.Column="1" Text="kyh-iothub.azure.net" FontSize="14" TextColor="{StaticResource Gray400}" HorizontalOptions="End" />
+            </Grid>
+            <Grid ColumnDefinitions="*,*">
+                <Label Grid.Column="0" Text="Shared AccessName" FontSize="14" TextColor="{StaticResource Gray400}" />
+                <Label Grid.Column="1" Text="iothubowner" FontSize="14" TextColor="{StaticResource Gray400}" HorizontalOptions="End" />
+            </Grid>
+            <Grid ColumnDefinitions="*,*">
+                <Label Grid.Column="0" Text="Consumer Group" FontSize="14" TextColor="{StaticResource Gray400}" />
+                <Label Grid.Column="1" Text="smart-home-device" FontSize="14" TextColor="{StaticResource Gray400}" HorizontalOptions="End" />
+            </Grid>
+        </VerticalStackLayout>
+
+    </Grid>
+</ContentPage>

@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:viewModels="clr-namespace:SmartHome.MVVM.ViewModels"
+             x:DataType="viewModels:MainViewModel"
+             x:Class="SmartHome.MainPage"
+             Shell.NavBarIsVisible="False"
+             >
+    <ContentPage.Behaviors>
+        <toolkit:StatusBarBehavior StatusBarColor="{StaticResource Black}" />
+    </ContentPage.Behaviors>
+
+    <Grid ColumnDefinitions="*,*" RowDefinitions="1*,3*,auto,2*,auto,2*" ColumnSpacing="20" RowSpacing="20" Padding="20" VerticalOptions="Start">
+
+        <Grid Grid.Row="0" Grid.ColumnSpan="2" ColumnDefinitions="*,*" Margin="0,0,0,0">
+            <Button Command="{Binding GoToSettingsCommand}" Grid.Column="1" Text="&#xf141;" Style="{StaticResource NavigationButton}" HorizontalOptions="End" VerticalOptions="Center" />
+        </Grid>
+
+        <Frame Grid.Row="1" Grid.ColumnSpan="2" Padding="0" BorderColor="Transparent" >
+            <Image Source="camera.png" Aspect="AspectFill" />
+        </Frame>
+
+        <Grid Grid.Row="2" Grid.ColumnSpan="2" ColumnDefinitions="*,*">
+            <Label Grid.Column="0" Text="Quick Access" />
+            <HorizontalStackLayout Grid.Column="1" HorizontalOptions="End" VerticalOptions="Center">
+                <HorizontalStackLayout.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding GoToAllDevicesCommand}" NumberOfTapsRequired="1" />
+                </HorizontalStackLayout.GestureRecognizers>
+
+                <Label Text="ALL DEVICES" TextColor="{StaticResource Yellow100Accent}" />
+                <Label Text="&#xf054;" FontSize="16" FontFamily="FontAwesomeRegular" TextColor="{StaticResource Yellow100Accent}"  Margin="3,-1,0,0" />
+            </HorizontalStackLayout>
+        </Grid>
+
+        <Frame Grid.Row="3" Grid.Column="0" BorderColor="Transparent" Padding="15">
+            <Grid RowDefinitions="auto,*" ColumnDefinitions="*,*">
+                <Label Grid.Row="0" Grid.Column="0" Text="&#xf0eb;" Margin="0,0,0,0"  FontSize="32" FontFamily="FontAwesomeRegular" VerticalOptions="Start" />
+                <Switch Toggled="Switch_Toggled" Grid.Row="0" Grid.Column="1" Margin="0,-10,-2,0" HorizontalOptions="End"  VerticalOptions="Start" />
+
+
+
+                <VerticalStackLayout Grid.Row="1" Grid.ColumnSpan="2" Margin="0,15,0,0">
+                    <Label FontSize="11" TextColor="{StaticResource Gray400}" Text="Philips Hue" />
+                    <Label Text="Smart Led" />
+                </VerticalStackLayout>
+
+
+            </Grid>
+        </Frame>
+
+        <Frame Grid.Row="3" Grid.Column="1"></Frame>
+
+        <Label Grid.Row="4"  Grid.ColumnSpan="2" Text="Favorite Device" FontSize="16" FontFamily="RubikRegular" TextColor="{StaticResource White}" VerticalOptions="Center" />
+
+        <Frame Grid.Row="5" Grid.ColumnSpan="2"></Frame>
+
+    </Grid>
+</ContentPage>

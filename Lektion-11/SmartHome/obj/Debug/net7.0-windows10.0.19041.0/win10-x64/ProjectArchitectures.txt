@@ -1,0 +1,1 @@
+C:\examples\kyh22-systemutveckling\Lektion-11\SmartHome\SmartHome.csproj;x64

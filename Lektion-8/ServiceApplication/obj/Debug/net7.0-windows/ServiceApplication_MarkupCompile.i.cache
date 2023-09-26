@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\education\kyh\kyh22-systemutveckling\Lektion-8\ServiceApplication\obj\Debug\net7.0-windows\
+C:\examples\kyh22-systemutveckling\Lektion-8\ServiceApplication\obj\Debug\net7.0-windows\
 ServiceApplication
 none
 false
 TRACE;DEBUG;NET;NET7_0;NETCOREAPP
-C:\education\kyh\kyh22-systemutveckling\Lektion-8\ServiceApplication\App.xaml
+C:\examples\kyh22-systemutveckling\Lektion-8\ServiceApplication\App.xaml
 6192565436
 102102507104
 9-2058682085
-199-1740936814
+199-1764510552
 MainWindow.xaml;MVVM\Controls\DateTimeControl.xaml;MVVM\Controls\DeviceTileControl.xaml;MVVM\Controls\WeatherControl.xaml;Resources\Fonts\FontAwesomeDictionary.xaml;Resources\Styles\DeviceTileDictionary.xaml;
 
-False
+True
 
