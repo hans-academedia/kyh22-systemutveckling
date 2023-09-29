@@ -52,6 +52,7 @@ resources;C:\education\kyh\kyh22-systemutveckling\Lektion-12\SmartApp\obj\Debug\
 resources;C:\education\kyh\kyh22-systemutveckling\Lektion-12\SmartApp\obj\Debug\net7.0-android\lp\154\jl\res\values\attr.xml
 resources;C:\education\kyh\kyh22-systemutveckling\Lektion-12\SmartApp\obj\Debug\net7.0-android\lp\154\jl\res\values\colors.xml
 resources;C:\education\kyh\kyh22-systemutveckling\Lektion-12\SmartApp\obj\Debug\net7.0-android\lp\154\jl\res\values\styles.xml
+resources;C:\education\kyh\kyh22-systemutveckling\Lektion-12\SmartApp\obj\Debug\net7.0-android\lp\157\jl\res\values\strings.xml
 resources;obj\Debug\net7.0-android\res\values\colors.xml
 resources;obj\Debug\net7.0-android\resizetizer\sp\values\maui_colors.xml
 set;C:\education\kyh\kyh22-systemutveckling\Lektion-12\SmartApp\obj\Debug\net7.0-android\lp\151\jl\res\anim\enterfromleft.xml
@@ -64,6 +65,7 @@ set;C:\education\kyh\kyh22-systemutveckling\Lektion-12\SmartApp\obj\Debug\net7.0
 set;C:\education\kyh\kyh22-systemutveckling\Lektion-12\SmartApp\obj\Debug\net7.0-android\lp\154\jl\res\anim\nav_default_pop_exit_anim.xml
 string;C:\education\kyh\kyh22-systemutveckling\Lektion-12\SmartApp\obj\Debug\net7.0-android\lp\151\jl\res\values\strings.xml
 string;C:\education\kyh\kyh22-systemutveckling\Lektion-12\SmartApp\obj\Debug\net7.0-android\lp\153\jl\res\values\values.xml
+string;C:\education\kyh\kyh22-systemutveckling\Lektion-12\SmartApp\obj\Debug\net7.0-android\lp\157\jl\res\values\strings.xml
 style;C:\education\kyh\kyh22-systemutveckling\Lektion-12\SmartApp\obj\Debug\net7.0-android\lp\152\jl\res\values\styles.xml
 style;C:\education\kyh\kyh22-systemutveckling\Lektion-12\SmartApp\obj\Debug\net7.0-android\lp\154\jl\res\values\styles.xml
 translate;C:\education\kyh\kyh22-systemutveckling\Lektion-12\SmartApp\obj\Debug\net7.0-android\lp\151\jl\res\anim\enterfromleft.xml

@@ -1,6 +1,9 @@
-﻿using Microsoft.Extensions.Logging;
+﻿using DataAccess;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 using SmartApp.Mvvm.ViewModels;
 using SmartApp.Mvvm.Views;
+using SmartApp.Services;
 
 namespace SmartApp
 {
@@ -15,6 +18,7 @@ namespace SmartApp
 				{
 					fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
 					fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
+					fonts.AddFont("fa-regular-400.ttf", "FontAwesomeRegular");
 				});
 
 			builder.Services.AddSingleton<MainViewModel>();
@@ -23,6 +27,8 @@ namespace SmartApp
 			builder.Services.AddSingleton<HomePage>();
 			builder.Services.AddSingleton<GetStartedViewModel>();
 			builder.Services.AddSingleton<GetStartedPage>();
+			builder.Services.AddSingleton<DeviceManager>();
+			builder.Services.AddDbContext<DataContext>(x => x.UseSqlite($"Data Source={DatabasePathFinder.GetPath()}"));
 
 
 

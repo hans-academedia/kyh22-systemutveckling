@@ -1,0 +1,1 @@
+C:\education\kyh\kyh22-systemutveckling\Lektion-12\SmartApp\SmartApp.csproj;x64

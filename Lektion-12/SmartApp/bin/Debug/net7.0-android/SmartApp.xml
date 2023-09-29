@@ -4,7 +4,20 @@
         <name>SmartApp</name>
     </assembly>
     <members>
+        <member name="T:SmartApp.Mvvm.ViewModels.DeviceItemViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:SmartApp.Mvvm.ViewModels.DeviceItemViewModel.Location">
+            <inheritdoc cref="F:SmartApp.Mvvm.ViewModels.DeviceItemViewModel.location"/>
+        </member>
+        <member name="P:SmartApp.Mvvm.ViewModels.DeviceItemViewModel.IsActive">
+            <inheritdoc cref="F:SmartApp.Mvvm.ViewModels.DeviceItemViewModel.isActive"/>
+        </member>
+        <member name="P:SmartApp.Mvvm.ViewModels.DeviceItemViewModel.Icon">
+            <inheritdoc cref="F:SmartApp.Mvvm.ViewModels.DeviceItemViewModel.icon"/>
+        </member>
         <member name="T:SmartApp.Mvvm.ViewModels.MainViewModel">
+            <inheritdoc/>
             <inheritdoc/>
         </member>
         <member name="P:SmartApp.Mvvm.ViewModels.MainViewModel.IsConfigured">
@@ -13,11 +26,26 @@
         <member name="P:SmartApp.Mvvm.ViewModels.MainViewModel.Devices">
             <inheritdoc cref="F:SmartApp.Mvvm.ViewModels.MainViewModel.devices"/>
         </member>
+        <member name="F:SmartApp.Mvvm.ViewModels.MainViewModel.sendDirectMethodCommand">
+            <summary>The backing field for <see cref="P:SmartApp.Mvvm.ViewModels.MainViewModel.SendDirectMethodCommand"/>.</summary>
+        </member>
+        <member name="P:SmartApp.Mvvm.ViewModels.MainViewModel.SendDirectMethodCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:SmartApp.Mvvm.ViewModels.MainViewModel.SendDirectMethod(SmartApp.Mvvm.ViewModels.DeviceItemViewModel)"/>.</summary>
+        </member>
         <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
             <summary>
             A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
             for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
             </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Location">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Location" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsActive">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsActive" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Icon">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Icon" generated properties.</summary>
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsConfigured">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsConfigured" generated properties.</summary>
@@ -30,6 +58,15 @@
             A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
             for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
             </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Location">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Location" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsActive">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsActive" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Icon">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Icon" generated properties.</summary>
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsConfigured">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsConfigured" generated properties.</summary>
