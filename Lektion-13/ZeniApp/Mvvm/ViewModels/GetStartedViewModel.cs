@@ -4,4 +4,5 @@ namespace ZeniApp.Mvvm.ViewModels;
 
 public partial class GetStartedViewModel : ObservableObject
 {
+
 }

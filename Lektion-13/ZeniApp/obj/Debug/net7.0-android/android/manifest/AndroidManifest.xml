@@ -9,6 +9,7 @@
   <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="33" />
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
   <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.CAMERA" />
   <permission android:name="com.companyname.zeniapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature" />
   <uses-permission android:name="com.companyname.zeniapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
   <application android:name="crc64cf4bf7c969aff7d2.MainApplication" android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:debuggable="true" android:extractNativeLibs="true" android:icon="@mipmap/appicon" android:label="ZeniApp" android:roundIcon="@mipmap/appicon_round" android:supportsRtl="true">

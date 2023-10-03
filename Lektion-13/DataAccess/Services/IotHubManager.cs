@@ -9,6 +9,7 @@ namespace DataAccess.Services;
 
 public class IotHubManager
 {
+	private string _connectionString = string.Empty;
 	private System.Timers.Timer timer;
 	private bool isConfigured;
 	private readonly ZeniAppDbContext _context;
@@ -28,25 +29,50 @@ public class IotHubManager
 	public List<DeviceItem> DeviceItemList { get; private set; }
 	public event Action? DeviceItemListUpdated;
 
-	public async Task InitializeAsync()
+
+	public void Initialize(string connectionString = null!)
+	{
+		try
+		{
+			_connectionString = connectionString;
+
+			if (!isConfigured)
+			{
+				if (!string.IsNullOrEmpty(_connectionString))
+				{
+					_registryManager = RegistryManager.CreateFromConnectionString(_connectionString);
+					_serviceClient = ServiceClient.CreateFromConnectionString(_connectionString);
+					isConfigured = true;
+				}
+			}
+		}
+		catch (Exception ex) { Debug.Write(ex.Message); }
+	}
+
+	public async Task InitializeAsync(string connectionString = null!)
 	{
 		try
 		{
 			if (!isConfigured)
 			{
-				await Task.Delay(100);
-				var connectionString = "HostName=kyh-iothub.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=M/vLVpxoLM7Blwqdsc8YxXaW2A7rQRLjzAIoTFa78jI=";
-				_registryManager = RegistryManager.CreateFromConnectionString(connectionString);
-				_serviceClient = ServiceClient.CreateFromConnectionString(connectionString);
-				isConfigured = true;
+				if (string.IsNullOrEmpty(connectionString))
+				{
+					var settings = await _context.Settings.FirstOrDefaultAsync();
+					if (settings != null)
+					{
+						_registryManager = RegistryManager.CreateFromConnectionString(settings.ConnectionString);
+						_serviceClient = ServiceClient.CreateFromConnectionString(settings.ConnectionString);
+						isConfigured = true;
+					}
+				} 
+				else
+				{
+					_registryManager = RegistryManager.CreateFromConnectionString(connectionString);
+					_serviceClient = ServiceClient.CreateFromConnectionString(connectionString);
+					isConfigured = true;
+				}
 
-				//var settings = await _context.Settings.FirstOrDefaultAsync();
-				//if (settings != null)
-				//{
-				//	_registryManager = RegistryManager.CreateFromConnectionString(settings.ConnectionString);
-				//	_serviceClient = ServiceClient.CreateFromConnectionString(settings.ConnectionString);
-				//  isConfigured = true;
-				//}
+
 			}
 		} catch (Exception ex) { Debug.Write(ex.Message); }
 	}
@@ -86,5 +112,42 @@ public class IotHubManager
 			}
 		}
 		catch (Exception ex) { Debug.WriteLine(ex.Message); }
+	}
+
+	public async Task<Device> GetDeviceAsync(string deviceId)
+	{
+		try
+		{
+			var device = await _registryManager!.GetDeviceAsync(deviceId);
+			if (device != null)
+				return device;
+		}
+		catch (Exception ex) { Debug.WriteLine(ex.Message); }
+
+		return null!;
+	}
+
+	public async Task<Device> RegisterDeviceAsync(string deviceId)
+	{
+		try
+		{
+			var device = await _registryManager!.AddDeviceAsync(new Device(deviceId));
+			if (device != null)
+				return device;
+		}
+		catch (Exception ex) { Debug.WriteLine(ex.Message); }
+
+		return null!;
+	}
+
+	public string GenerateConnectionString(Device device)
+	{
+		try
+		{
+			return $"{_connectionString.Split(";")[0]};DeviceId={device.Id};SharedAccessKey={device.Authentication.SymmetricKey.PrimaryKey}";
+		}
+		catch (Exception ex) { Debug.WriteLine(ex.Message); }
+
+		return null!;
 	}
 }

@@ -1,4 +1,5 @@
-﻿using CommunityToolkit.Maui;
+﻿using Camera.MAUI;
+using CommunityToolkit.Maui;
 using DataAccess.Contexts;
 using DataAccess.Services;
 using Microsoft.EntityFrameworkCore;
@@ -17,6 +18,7 @@ namespace ZeniApp
 			builder
 				.UseMauiApp<App>()
 				.UseMauiCommunityToolkit()
+				.UseMauiCameraView()
 				.ConfigureFonts(fonts =>
 				{
 					fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");

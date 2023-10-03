@@ -45,6 +45,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.Azure.Devices": {
+              "target": "Package",
+              "version": "[1.39.0, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -155,6 +159,10 @@
         "net7.0-android33.0": {
           "targetAlias": "net7.0-android",
           "dependencies": {
+            "Camera.Maui": {
+              "target": "Package",
+              "version": "[1.4.4, )"
+            },
             "CommunityToolKit.Maui": {
               "target": "Package",
               "version": "[6.0.0, )"
@@ -281,6 +289,10 @@
         "net7.0-ios16.1": {
           "targetAlias": "net7.0-ios",
           "dependencies": {
+            "Camera.Maui": {
+              "target": "Package",
+              "version": "[1.4.4, )"
+            },
             "CommunityToolKit.Maui": {
               "target": "Package",
               "version": "[6.0.0, )"
@@ -352,6 +364,10 @@
         "net7.0-maccatalyst16.1": {
           "targetAlias": "net7.0-maccatalyst",
           "dependencies": {
+            "Camera.Maui": {
+              "target": "Package",
+              "version": "[1.4.4, )"
+            },
             "CommunityToolKit.Maui": {
               "target": "Package",
               "version": "[6.0.0, )"
@@ -424,6 +440,10 @@
         "net7.0-windows10.0.19041": {
           "targetAlias": "net7.0-windows10.0.19041.0",
           "dependencies": {
+            "Camera.Maui": {
+              "target": "Package",
+              "version": "[1.4.4, )"
+            },
             "CommunityToolKit.Maui": {
               "target": "Package",
               "version": "[6.0.0, )"

@@ -25,7 +25,7 @@ public partial class MainViewModel : ObservableObject
 	{
 		try
 		{
-			if (!await _context.Settings.AnyAsync())
+			if (await _context.Settings.AnyAsync())
 			{
 				await _iotHubManager.InitializeAsync();
 				await Shell.Current.GoToAsync(nameof(OverviewPage));

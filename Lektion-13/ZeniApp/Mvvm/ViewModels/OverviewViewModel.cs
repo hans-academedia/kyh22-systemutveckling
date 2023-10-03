@@ -14,6 +14,7 @@ public partial class OverviewViewModel : ObservableObject
 	public OverviewViewModel(IotHubManager iotHubManager)
 	{
 		_iotHubManager = iotHubManager;
+		_iotHubManager.InitializeAsync().ConfigureAwait(true);
 
 		UpdateDeviceList();
 		_iotHubManager.DeviceItemListUpdated += UpdateDeviceList;
