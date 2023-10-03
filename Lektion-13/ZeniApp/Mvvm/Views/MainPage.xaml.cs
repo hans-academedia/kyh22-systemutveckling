@@ -1,10 +1,14 @@
-﻿namespace ZeniApp
+﻿using ZeniApp.Mvvm.ViewModels;
+
+namespace ZeniApp
 {
 	public partial class MainPage : ContentPage
 	{
-		public MainPage()
+
+		public MainPage(MainViewModel viewModel)
 		{
 			InitializeComponent();
+			BindingContext = viewModel;
 		}
 	}
 }

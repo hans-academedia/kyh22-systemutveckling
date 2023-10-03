@@ -63,7 +63,12 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="Mvvm\ViewModels\" />
+	  <MauiXaml Update="Mvvm\Views\GetStartedPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Mvvm\Views\OverviewPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	</ItemGroup>
 
 </Project>

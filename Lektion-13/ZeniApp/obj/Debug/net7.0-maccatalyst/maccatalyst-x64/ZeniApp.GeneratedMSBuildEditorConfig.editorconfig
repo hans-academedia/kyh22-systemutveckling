@@ -22,11 +22,23 @@ build_metadata.AdditionalFiles.ManifestResourceName = ZeniApp.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
+[C:/education/kyh/kyh22-systemutveckling/Lektion-13/ZeniApp/Mvvm/Views/GetStartedPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ZeniApp.Mvvm.Views.GetStartedPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Mvvm\Views\GetStartedPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Mvvm\Views\GetStartedPage.xaml
+
 [C:/education/kyh/kyh22-systemutveckling/Lektion-13/ZeniApp/Mvvm/Views/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ZeniApp.Mvvm.Views.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Mvvm\Views\MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Mvvm\Views\MainPage.xaml
+
+[C:/education/kyh/kyh22-systemutveckling/Lektion-13/ZeniApp/Mvvm/Views/OverviewPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ZeniApp.Mvvm.Views.OverviewPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Mvvm\Views\OverviewPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Mvvm\Views\OverviewPage.xaml
 
 [C:/education/kyh/kyh22-systemutveckling/Lektion-13/ZeniApp/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
