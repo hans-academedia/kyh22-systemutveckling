@@ -1,0 +1,14 @@
+C:\education\kyh\kyh22-systemutveckling\Lektion-13\DataAccess\bin\Debug\net7.0\DataAccess.deps.json
+C:\education\kyh\kyh22-systemutveckling\Lektion-13\DataAccess\bin\Debug\net7.0\DataAccess.runtimeconfig.json
+C:\education\kyh\kyh22-systemutveckling\Lektion-13\DataAccess\bin\Debug\net7.0\DataAccess.dll
+C:\education\kyh\kyh22-systemutveckling\Lektion-13\DataAccess\bin\Debug\net7.0\DataAccess.pdb
+C:\education\kyh\kyh22-systemutveckling\Lektion-13\DataAccess\obj\Debug\net7.0\DataAccess.csproj.AssemblyReference.cache
+C:\education\kyh\kyh22-systemutveckling\Lektion-13\DataAccess\obj\Debug\net7.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\education\kyh\kyh22-systemutveckling\Lektion-13\DataAccess\obj\Debug\net7.0\DataAccess.AssemblyInfoInputs.cache
+C:\education\kyh\kyh22-systemutveckling\Lektion-13\DataAccess\obj\Debug\net7.0\DataAccess.AssemblyInfo.cs
+C:\education\kyh\kyh22-systemutveckling\Lektion-13\DataAccess\obj\Debug\net7.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\education\kyh\kyh22-systemutveckling\Lektion-13\DataAccess\obj\Debug\net7.0\DataAccess.dll
+C:\education\kyh\kyh22-systemutveckling\Lektion-13\DataAccess\obj\Debug\net7.0\refint\DataAccess.dll
+C:\education\kyh\kyh22-systemutveckling\Lektion-13\DataAccess\obj\Debug\net7.0\DataAccess.pdb
+C:\education\kyh\kyh22-systemutveckling\Lektion-13\DataAccess\obj\Debug\net7.0\DataAccess.genruntimeconfig.cache
+C:\education\kyh\kyh22-systemutveckling\Lektion-13\DataAccess\obj\Debug\net7.0\ref\DataAccess.dll

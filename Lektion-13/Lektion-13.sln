@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZeniApp", "ZeniApp\ZeniApp.csproj", "{89AC47C7-6D23-4086-ADFF-61845319231C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{6B7A3D7A-9362-48B9-9ADE-0AA6B725B02E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89AC47C7-6D23-4086-ADFF-61845319231C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89AC47C7-6D23-4086-ADFF-61845319231C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89AC47C7-6D23-4086-ADFF-61845319231C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{89AC47C7-6D23-4086-ADFF-61845319231C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89AC47C7-6D23-4086-ADFF-61845319231C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89AC47C7-6D23-4086-ADFF-61845319231C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{6B7A3D7A-9362-48B9-9ADE-0AA6B725B02E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B7A3D7A-9362-48B9-9ADE-0AA6B725B02E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B7A3D7A-9362-48B9-9ADE-0AA6B725B02E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B7A3D7A-9362-48B9-9ADE-0AA6B725B02E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0B1A2944-6C20-42B2-8642-9CF8BDA53C7A}
+	EndGlobalSection
+EndGlobal

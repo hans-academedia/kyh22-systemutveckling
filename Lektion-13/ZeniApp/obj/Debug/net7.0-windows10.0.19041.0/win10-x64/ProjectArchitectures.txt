@@ -1,0 +1,1 @@
+C:\education\kyh\kyh22-systemutveckling\Lektion-13\ZeniApp\ZeniApp.csproj;x64
