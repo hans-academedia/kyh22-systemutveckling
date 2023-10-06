@@ -23,6 +23,8 @@ async Task OnConfiguredAsync()
         await deviceManager.SetDirectMethodAsync("start", StartMethod);
         await deviceManager.SetDirectMethodAsync("stop", StopMethod);
         Console.WriteLine("Direct Method(s) Registered");
+
+        await deviceManager.SendMessageAsync("[\"testar\"]");
     }
 }
 

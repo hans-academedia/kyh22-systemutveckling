@@ -4,6 +4,7 @@ using Microsoft.Azure.Devices.Shared;
 using Newtonsoft.Json;
 using System;
 using System.Net.Http.Json;
+using System.Text;
 
 namespace DataAccess.Devices.Services;
 
@@ -53,5 +54,11 @@ public class DeviceManager
     {
         if (IsConfigured)
             await _deviceClient!.SetMethodHandlerAsync(methodName, methodCallback, null!);
+    }
+
+    public async Task SendMessageAsync(string content)
+    {
+        var message = new Message(Encoding.UTF8.GetBytes(content));
+        await _deviceClient!.SendEventAsync(message);
     }
 }
