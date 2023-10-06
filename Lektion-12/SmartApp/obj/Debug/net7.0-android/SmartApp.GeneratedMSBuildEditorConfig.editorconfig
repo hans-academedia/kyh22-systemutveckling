@@ -12,45 +12,45 @@ build_property.EnableSingleFileAnalyzer = true
 build_property.EnableTrimAnalyzer = false
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = SmartApp
-build_property.ProjectDir = C:\education\kyh\kyh22-systemutveckling\Lektion-12\SmartApp\
+build_property.ProjectDir = c:\education\kyh\kyh22-systemutveckling\Lektion-12\SmartApp\
 
-[C:/education/kyh/kyh22-systemutveckling/Lektion-12/SmartApp/App.xaml]
+[c:/education/kyh/kyh22-systemutveckling/Lektion-12/SmartApp/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SmartApp.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/education/kyh/kyh22-systemutveckling/Lektion-12/SmartApp/AppShell.xaml]
+[c:/education/kyh/kyh22-systemutveckling/Lektion-12/SmartApp/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SmartApp.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/education/kyh/kyh22-systemutveckling/Lektion-12/SmartApp/MainPage.xaml]
+[c:/education/kyh/kyh22-systemutveckling/Lektion-12/SmartApp/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SmartApp.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/education/kyh/kyh22-systemutveckling/Lektion-12/SmartApp/Mvvm/Views/GetStartedPage.xaml]
+[c:/education/kyh/kyh22-systemutveckling/Lektion-12/SmartApp/Mvvm/Views/GetStartedPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SmartApp.Mvvm.Views.GetStartedPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Mvvm\Views\GetStartedPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Mvvm\Views\GetStartedPage.xaml
 
-[C:/education/kyh/kyh22-systemutveckling/Lektion-12/SmartApp/Mvvm/Views/HomePage.xaml]
+[c:/education/kyh/kyh22-systemutveckling/Lektion-12/SmartApp/Mvvm/Views/HomePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SmartApp.Mvvm.Views.HomePage.xaml
 build_metadata.AdditionalFiles.TargetPath = Mvvm\Views\HomePage.xaml
 build_metadata.AdditionalFiles.RelativePath = Mvvm\Views\HomePage.xaml
 
-[C:/education/kyh/kyh22-systemutveckling/Lektion-12/SmartApp/Resources/Styles/Colors.xaml]
+[c:/education/kyh/kyh22-systemutveckling/Lektion-12/SmartApp/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SmartApp.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/education/kyh/kyh22-systemutveckling/Lektion-12/SmartApp/Resources/Styles/Styles.xaml]
+[c:/education/kyh/kyh22-systemutveckling/Lektion-12/SmartApp/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SmartApp.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml

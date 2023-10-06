@@ -1,0 +1,12 @@
+C:\education\kyh\kyh22-systemutveckling\Lektion-14\DataAccess.Devices\bin\Debug\net7.0\DataAccess.Devices.deps.json
+C:\education\kyh\kyh22-systemutveckling\Lektion-14\DataAccess.Devices\bin\Debug\net7.0\DataAccess.Devices.dll
+C:\education\kyh\kyh22-systemutveckling\Lektion-14\DataAccess.Devices\bin\Debug\net7.0\DataAccess.Devices.pdb
+C:\education\kyh\kyh22-systemutveckling\Lektion-14\DataAccess.Devices\obj\Debug\net7.0\DataAccess.Devices.csproj.AssemblyReference.cache
+C:\education\kyh\kyh22-systemutveckling\Lektion-14\DataAccess.Devices\obj\Debug\net7.0\DataAccess.Devices.GeneratedMSBuildEditorConfig.editorconfig
+C:\education\kyh\kyh22-systemutveckling\Lektion-14\DataAccess.Devices\obj\Debug\net7.0\DataAccess.Devices.AssemblyInfoInputs.cache
+C:\education\kyh\kyh22-systemutveckling\Lektion-14\DataAccess.Devices\obj\Debug\net7.0\DataAccess.Devices.AssemblyInfo.cs
+C:\education\kyh\kyh22-systemutveckling\Lektion-14\DataAccess.Devices\obj\Debug\net7.0\DataAccess.Devices.csproj.CoreCompileInputs.cache
+C:\education\kyh\kyh22-systemutveckling\Lektion-14\DataAccess.Devices\obj\Debug\net7.0\DataAccess.Devices.dll
+C:\education\kyh\kyh22-systemutveckling\Lektion-14\DataAccess.Devices\obj\Debug\net7.0\refint\DataAccess.Devices.dll
+C:\education\kyh\kyh22-systemutveckling\Lektion-14\DataAccess.Devices\obj\Debug\net7.0\DataAccess.Devices.pdb
+C:\education\kyh\kyh22-systemutveckling\Lektion-14\DataAccess.Devices\obj\Debug\net7.0\ref\DataAccess.Devices.dll
