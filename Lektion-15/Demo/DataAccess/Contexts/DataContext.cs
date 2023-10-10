@@ -1,8 +1,9 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using DataAccess.Entities;
+using Microsoft.EntityFrameworkCore;
 
-namespace ConsoleDevice.Contexts;
+namespace DataAccess.Contexts;
 
-internal class DataContext : DbContext
+public class DataContext : DbContext
 {
     public DataContext()
     {
@@ -14,8 +15,7 @@ internal class DataContext : DbContext
         Database.Migrate();
     }
 
-    public DbSet<ConfigurationEntity> Configuration { get; set; }
-
+    public DbSet<DeviceConfiguration> Configurations { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {

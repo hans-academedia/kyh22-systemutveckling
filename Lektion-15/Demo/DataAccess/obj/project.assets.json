@@ -2169,20 +2169,6 @@
             "related": ".pdb"
           }
         }
-      },
-      "DataAccess/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "dependencies": {
-          "Microsoft.Azure.Devices.Client": "1.42.0",
-          "Microsoft.EntityFrameworkCore.Sqlite": "7.0.11"
-        },
-        "compile": {
-          "bin/placeholder/DataAccess.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/DataAccess.dll": {}
-        }
       }
     }
   },
@@ -6703,16 +6689,10 @@
         "windowsazure.storage.9.3.2.nupkg.sha512",
         "windowsazure.storage.nuspec"
       ]
-    },
-    "DataAccess/1.0.0": {
-      "type": "project",
-      "path": "../DataAccess/DataAccess.csproj",
-      "msbuildProject": "../DataAccess/DataAccess.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "DataAccess >= 1.0.0",
       "Microsoft.Azure.Devices.Client >= 1.42.0",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.11",
       "Microsoft.EntityFrameworkCore.Sqlite >= 7.0.11",
@@ -6726,11 +6706,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\education\\kyh\\kyh22-systemutveckling\\Lektion-15\\Demo\\ConsoleDevice\\ConsoleDevice.csproj",
-      "projectName": "ConsoleDevice",
-      "projectPath": "C:\\education\\kyh\\kyh22-systemutveckling\\Lektion-15\\Demo\\ConsoleDevice\\ConsoleDevice.csproj",
+      "projectUniqueName": "C:\\education\\kyh\\kyh22-systemutveckling\\Lektion-15\\Demo\\DataAccess\\DataAccess.csproj",
+      "projectName": "DataAccess",
+      "projectPath": "C:\\education\\kyh\\kyh22-systemutveckling\\Lektion-15\\Demo\\DataAccess\\DataAccess.csproj",
       "packagesPath": "C:\\Users\\HansMattin-Lassei\\.nuget\\packages\\",
-      "outputPath": "C:\\education\\kyh\\kyh22-systemutveckling\\Lektion-15\\Demo\\ConsoleDevice\\obj\\",
+      "outputPath": "C:\\education\\kyh\\kyh22-systemutveckling\\Lektion-15\\Demo\\DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -6751,11 +6731,7 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {
-            "C:\\education\\kyh\\kyh22-systemutveckling\\Lektion-15\\Demo\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "C:\\education\\kyh\\kyh22-systemutveckling\\Lektion-15\\Demo\\DataAccess\\DataAccess.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

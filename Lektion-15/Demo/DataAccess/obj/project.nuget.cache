@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KGfhFeO05Uzq5vZtw/0+o0Ar5X4l7zJxEdDbVCZ6QMeqK8kK8YIOFtbjsoFrvnldo85R60KLO8r+xCDRDGSI9Q==",
+  "dgSpecHash": "KQLAC1nLQHAKNAgMlOnq2CnHkHd1+qPmE0D4DnxS2PW+2zzS1WMsCVKRD5YV57Kdw3IGpp6fkixdTnyQ44rzCw==",
   "success": true,
-  "projectFilePath": "C:\\education\\kyh\\kyh22-systemutveckling\\Lektion-15\\Demo\\ConsoleDevice\\ConsoleDevice.csproj",
+  "projectFilePath": "C:\\education\\kyh\\kyh22-systemutveckling\\Lektion-15\\Demo\\DataAccess\\DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HansMattin-Lassei\\.nuget\\packages\\dotnetty.buffers\\0.7.0\\dotnetty.buffers.0.7.0.nupkg.sha512",
     "C:\\Users\\HansMattin-Lassei\\.nuget\\packages\\dotnetty.codecs\\0.7.0\\dotnetty.codecs.0.7.0.nupkg.sha512",
