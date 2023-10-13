@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v7.0": {
       "ConsoleDevice/1.0.0": {
         "dependencies": {
+          "DataAccess": "1.0.0",
           "Microsoft.Azure.Devices.Client": "1.42.0",
           "Microsoft.EntityFrameworkCore.Design": "7.0.11",
           "Microsoft.EntityFrameworkCore.Sqlite": "7.0.11",
@@ -1248,6 +1249,15 @@
             "fileVersion": "9.3.2.0"
           }
         }
+      },
+      "DataAccess/1.0.0": {
+        "dependencies": {
+          "Microsoft.Azure.Devices.Client": "1.42.0",
+          "Microsoft.EntityFrameworkCore.Sqlite": "7.0.11"
+        },
+        "runtime": {
+          "DataAccess.dll": {}
+        }
       }
     }
   },
@@ -2103,6 +2113,11 @@
       "sha512": "sha512-iVH/VhGsViIEo1G89BuK84RBsArJQOFy5sM6mrZ2IeXPcRkEmsy1dWsbgXtXLh1odiTadu2zMEdyUWIkyC2U7w==",
       "path": "windowsazure.storage/9.3.2",
       "hashPath": "windowsazure.storage.9.3.2.nupkg.sha512"
+    },
+    "DataAccess/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

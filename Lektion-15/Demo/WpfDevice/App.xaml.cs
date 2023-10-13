@@ -1,4 +1,5 @@
 ﻿using DataAccess.Contexts;
+using DataAccess.Entities;
 using DataAccess.Services;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
@@ -22,10 +23,10 @@ namespace WpfDevice
 
         public App()
         {
-            AppHost = Host.CreateDefaultBuilder()
+            AppHost = Host.CreateDefaultBuilder() 
             .ConfigureServices((config, services) =>
             {
-                services.AddDbContext<DataContext>(x => x.UseSqlite("Data Source=Database.sqlite.db"));
+                services.AddDbContext<DataContext>(x => x.UseSqlite("Data Source=Database.sqlite.db", x => x.MigrationsAssembly(nameof(WpfDevice))));
                 services.AddSingleton<DeviceManager>();
                 services.AddSingleton<MainWindow>();
             })
@@ -34,12 +35,21 @@ namespace WpfDevice
 
         protected override async void OnStartup(StartupEventArgs args)
         {
-            var mainWindow = AppHost!.Services.GetRequiredService<MainWindow>();
+            await AppHost!.StartAsync();
+
+            using var context = AppHost!.Services.GetRequiredService<DataContext>();
+            if (!await context.Configurations.AnyAsync())
+            {
+                context.Configurations.Add(new DeviceConfiguration() { DeviceId = "wpfdevice" });
+                await context.SaveChangesAsync();
+            }
+
             var deviceManager = AppHost!.Services.GetRequiredService<DeviceManager>();
             await deviceManager.InitializeAsync("https://kyh-demo-fa.azurewebsites.net/api/RegisterDevice?code=WTnAt941_ZJToaKNGNT3KKdHYuRNoItz489FCj_Fddi4AzFu5OcvKw==");
 
-            await AppHost!.StartAsync();
+            var mainWindow = AppHost!.Services.GetRequiredService<MainWindow>();
             mainWindow.Show();
+
             base.OnStartup(args);
         }
     }

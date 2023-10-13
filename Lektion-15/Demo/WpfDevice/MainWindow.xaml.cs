@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DataAccess.Contexts;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,9 +21,19 @@ namespace WpfDevice
     /// </summary>
     public partial class MainWindow : Window
     {
-        public MainWindow()
+        private readonly DataContext _context;
+
+        public MainWindow(DataContext context)
         {
             InitializeComponent();
+            _context = context;
+
+            if (!string.IsNullOrEmpty(_context.Configurations.FirstOrDefault()!.DeviceConnectionString))
+                ConnectionState.Text = "Device Connected";
+            else
+                ConnectionState.Text = "Not Connected";
         }
+
+
     }
 }
